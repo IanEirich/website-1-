@@ -41,6 +41,7 @@ body {
     width: 50px;
     padding: 15px;
     box-sizing: border-box;
+    transition: width 3s ease;
 }
 
 .search .input:focus {
