@@ -1,5 +1,21 @@
 
 
 body {
-   background-color: rgb();
+   background-color: rgb(161,100,223);
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    font size: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255,255,255);
+    cursor: pointer;
 }
