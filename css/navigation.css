@@ -73,3 +73,38 @@ body {
     right: 0;
     transition: all 0.3 ease-in-out;
 }
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3 ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-item: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3 ease-in-out;
+}
+
+.nav.active {
+    background-color: white;
+}
+
+.nav.active a {
+    color: black;
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
