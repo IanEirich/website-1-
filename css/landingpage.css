@@ -16,6 +16,14 @@ body {
    transition: transform 0.3s ease;
 }
 
+.link a {
+    text-decoration: none;
+    margin: 600px;
+    box-shadow: 15px 0 50px rgba(0,0,150,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
 body.show-nav {
    transform: translateX(200px);
 }

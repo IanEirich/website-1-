@@ -12,6 +12,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.link a {
+    text-decoration: none;
+    color: purple;
+    align-items: right;
+    margin: 570px;
+    box-shadow: 15px 0 50px rgba(0,0,150,0.5);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
