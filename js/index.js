@@ -13,12 +13,12 @@ function removeActiveClasses(){
     })
 }
 
-window.addEventListener('scroll', fixNav)
+panels.addEventListener('scroll', fixNav)
 
 function fixNav() {
-   if (window.scrollY > 283) {
-    nav.classList.add('active')
+   if (panels.scrollY > 283) {
+    panels.classList.add('active')
    } else {
-     nav.classList.remove('active')
+     panels.classList.remove('active')
    }
 }
