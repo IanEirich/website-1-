@@ -7,7 +7,7 @@
 
 body {
    background-image: url(images/pc2.jpg);
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    font-family: "Playfair Display", serif;
@@ -84,8 +84,6 @@ body a {
     }
 }
 
-
-
 .content h2, .content h3 {
     margin: 20px 0;
     font-size: 150%;
@@ -112,4 +110,5 @@ body a {
     align-items: center;
     padding: 20px 0;
     transition: all 0.3 ease-in-out;
+    bottom: 1
 }
