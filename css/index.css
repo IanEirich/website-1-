@@ -7,7 +7,7 @@
 
 body {
    background-image: url(images/pc2.jpg);
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-size: cover;
    background-position: center;
    font-family: "Playfair Display", serif;
@@ -51,6 +51,7 @@ body a {
     margin: 10px;
     position: relative;
     transition: flex 1s ease-in;
+    padding: 100px;
 }
 
 .panel.active {
