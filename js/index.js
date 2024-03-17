@@ -13,12 +13,14 @@ function removeActiveClasses(){
     })
 }
 
+nav = document.querySelector('.nav')
+
 window.addEventListener('scroll', fixNav)
 
 function fixNav() {
-   if (window.scrollY > 100) {
-    window.classList.add('active')
+   if (window.scrollY > 283) {
+    nav.classList.add('active')
    } else {
-     window.classList.remove('active')
+     nav.classList.remove('active')
    }
 }
