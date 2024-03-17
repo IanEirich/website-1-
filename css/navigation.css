@@ -31,7 +31,7 @@ body {
 
 .hero {
     background-image: url(images/rocks.jpg);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
