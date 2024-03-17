@@ -9,7 +9,7 @@ body {
    background-image: url(images/pc2.jpg);
    background-repeat: repeat;
    background-size: cover;
-   background-position: bottom center;
+   background-position: center;
    font-family: "Playfair Display", serif;
    color: white;
    height: 100vh;
@@ -17,7 +17,7 @@ body {
    /* justify-content: center;
    align-items: center;
    text-align: center;
-   position: absolute; */
+   position: center; */
    /* padding: 5px; */
 }
 
