@@ -74,7 +74,7 @@ body a {
 
 .panel.active h3 a {
     opacity: 1;
-    transition: opacity .6s linear 0.7s;
+    transition: opacity .6s ease-in 0.7s;
 }
 
 
