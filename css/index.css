@@ -85,8 +85,12 @@ body a {
 }
 
 .content h2, .content h3 {
-    margin: 20px 0;
+    margin: 20px 15px;
     font-size: 150%;
+    color: black;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(225,0,0,1);
+
 }
 
 .content p {
