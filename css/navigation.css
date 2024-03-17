@@ -12,10 +12,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-.link a {
+.link {
     text-decoration: none;
     color: purple;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     text-align: center;
     position: center;
