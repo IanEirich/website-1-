@@ -27,7 +27,7 @@ body a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     margin: 15px;
     display: center;
     justify-content: center;
@@ -90,76 +90,3 @@ body a {
     }
 }
 
-
- /* @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap')
-
-
- * {
-     box-sizing: border-box;
- }
-
- body {
-     height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     margin: 0;
-     font-family: "Ojuju", sans-serif;
- }
-
- a {
-     text-decoration: none;
-     color: black;
-     box-shadow: 0 0 50px rgba(0,255,0,0.5);
- }
-
-
- .container {
-     width: 90vw;
-     display: flex;
- }
-
- .panel {
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     height: 80vh;
-     border-radius: 50px;
-     color: white;
-     cursor: pointer;
-     flex: 0.5;
-     margin: 10px;
-     position: relative;
-     transition: flex 1s ease-in;
- }
-
- .panel.active {
-     flex: 5;
- }
-
- .panel h3 a {
-     font-size: 24px;
-     position: absolute;
-     bottom: 20px;
-     left: 20px;
-     margin: 0;
-     opacity: 0;
- }
-
- .panel.active h3 a {
-     opacity: 1;
-     transition: opacity .6s ease-in 0.4s;
- }
-
-
- @media (max-width: 480px) {
-     .panel:nth-of-type(4){
-         display: none;
-     }
-     .panel:nth-of-type(5){
-         display: none;
-     }
-     .container{
-         width: 100vw;
-     }
- } */
