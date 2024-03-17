@@ -58,9 +58,9 @@ body a {
 }
 
 .panel h3 {
-    font-size: 24px;
+    font-size: 30px;
     position: absolute;
-    bottom: 20px;
+    bottom: 35px;
     left: 20px;
     margin: 0;
     opacity: 0;
@@ -68,11 +68,11 @@ body a {
 
 .panel.active h3 {
     opacity: 1;
-    transition: opacity .6s ease-in 0.4s;
+    transition: opacity .6s ease-in 0.6s;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .panel:nth-of-type(4){
         display: none;
     }
