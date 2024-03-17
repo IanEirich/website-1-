@@ -90,22 +90,21 @@ body a {
     font-size: 150%;
     color: black;
     padding: 5px;
-    box-shadow: 0 0 5px rgba(0,0,225,0.5);
+    box-shadow: 0 0 0px rgba(0,0,225,0.5);
     line-height: -15px;
     text-align: center;
-    vertical-align: bottom;
     background-color: white;
     text: black;
 }
 
 .content p {
     color: black;;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 1.2px;
     background-color: white;
-    padding: 15px;
+    padding: 0px;
     bottom: 50px;
-    margin: 50px;
+    margin: 0px;
 }
 
 
