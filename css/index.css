@@ -91,6 +91,8 @@ body a {
     padding: 5px;
     box-shadow: 0 0 5px rgba(225,0,0,1);
     line-height: -15px;
+    text-align: center;
+    vertical-align:bottom;
 
 }
 
