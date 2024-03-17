@@ -15,8 +15,12 @@ body {
 .link a {
     text-decoration: none;
     color: purple;
-    align-items: right;
-    margin: 570px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: center;
+    padding: 5px;
+    margin: 0;
     box-shadow: 15px 0 50px rgba(0,0,150,0.5);
 }
 
