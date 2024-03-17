@@ -35,8 +35,9 @@ body a {
 }
 
 .container {
-    width: 100vw;
+    width: 90vw;
     display: flex;
+    height: 110vh;
 }
 
 .panel {
