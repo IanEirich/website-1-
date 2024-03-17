@@ -17,9 +17,7 @@ body {
    justify-content: center;
    align-items: center;
    text-align: center;
-   position: relative;
-   margin: 0;
-   right: 0px;
+   position: absolute;
    padding: 15px;
 }
 
@@ -39,6 +37,11 @@ body a {
 .container {
     width: 95vw;
     display: flex;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
 .panel {
