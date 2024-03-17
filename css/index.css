@@ -7,7 +7,7 @@
 
 body {
    background-image: url(images/pc2.jpg);
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    font-family: "Playfair Display", serif;
@@ -51,7 +51,6 @@ body a {
     margin: 10px;
     position: relative;
     transition: flex 1s ease-in;
-    padding: 100px;
 }
 
 .panel.active {
@@ -90,12 +89,22 @@ body a {
     font-size: 150%;
     color: black;
     padding: 5px;
-    box-shadow: 0 0 5px rgba(225,0,0,1);
+    box-shadow: 0 0 5px rgba(0,0,225,0.5);
     line-height: -15px;
     text-align: center;
     vertical-align: bottom;
     background-color: white;
-    text: black
-
+    text: black;
 }
+
+.content p {
+    color: black;;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    background-color: white;
+    padding: 15px;
+    bottom: 50px;
+    margin: 50px;
+}
+
 
